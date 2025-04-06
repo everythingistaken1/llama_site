@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cart">Cart (0)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to our business website</h1>
+            <p>We sell high-quality products at affordable prices.</p>
+            <button>Shop Now</button>
+        </section>
+        <section id="products">
+            <h1>Our Products</h1>
+            <div class="product-container">
+                <div class="product">
+                    <h2>Product 1</h2>
+                    <p>Price: $10.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <h2>Product 2</h2>
+                    <p>Price: $9.99</p>
+                    <button>Add to Cart</button>
+                </div>
+                <div class="product">
+                    <h2>Product 3</h2>
+                    <p>Price: $12.99</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p>Phone: 123-456-7890</p>
+            <p>Email: [info@example.com](mailto:info@example.com)</p>
+        </section>
+        <section id="cart">
+            <h1>Shopping Cart</h1>
+            <div class="cart-container">
+                <ul id="cart-list">
+                    <!-- Cart items will be added here -->
+                </ul>
+                <p>Total: $0.00</p>
+                <button id="checkout-btn">Checkout</button>
+            </div>
+        </section>
+        <section id="thank-you" style="display: none;">
+            <h1>Thank you for your order!</h1>
+            <p>We appreciate your business and hope you enjoy your products.</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
