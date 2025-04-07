@@ -28,6 +28,7 @@ var klaroConfig = {
     {
       name: 'ad-storage',
       title: 'Ad Storage',
+      default: false,
       purposes: ['advertising'],
       cookies: [/^_fbp/, /^_gads/], // Example ad-related cookies
       required: false,
